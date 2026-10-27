@@ -32,6 +32,8 @@ nav {
 .link-header {
     margin: 56px 45px 56px 0px;
     cursor: pointer;
+    color: inherit;
+    text-decoration: none;
 }
 a:hover {
     display: inline-block;
@@ -61,6 +63,10 @@ button:hover {
     width: 90%;
     max-width: 1440px;
     margin: 0 auto;
+}
+
+header nav.container {
+    max-width: 1440px;
 }
 
 h1 {
@@ -130,16 +136,115 @@ h1 {
     display: flex;
     align-items: center;
     gap: 32px;
+    width: 1300px;
+    margin: 0 0 0 85px;
 }
+
 .img-conteiner img {
     width: 624px;
     height: 436px;
 }
 
-.pa-1 {
-    white-space: pre-line;
+.sub-1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    color: #000000;
+    text-align: left;
+    width: 680px;
+    margin: 59px 0 82px 299px;
 }
 
+.pa-1 {
+    white-space: pre-line;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 30px;
+    color: #000;
+    text-align: left;
+    width: 842px;
+    height: auto;
+    margin: 50px 299px 80px 299px;
+}
+
+.s-1 {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 140px;
+    margin-left: 80px;
+    width: 1300px;
+    height: 545px;
+}
+ul {
+    list-style: none;
+}
+.title-2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.1; /* 44px */
+
+    color: #000;;
+    width: 625px;
+    margin: 120px 0px 48px 80px;
+}
+.article-box {
+    cursor: pointer;
+}
+.article-box:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+.article-box:hover .paragraph-box {
+    transition: 0.3s ease;
+    transform: scale(1.0);
+    opacity: 0.7;
+    max-height: 100px;
+
+}
+.img-box {
+    width: 404px;
+    height: 346px;
+}
+
+.title-box {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+
+    color: #000;
+    text-align: left;
+    width: 404px;
+}
+
+
+.sub-box {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+    color: #828282;
+    text-align: left;
+    width: 404px;
+}
+.paragraph-box {
+    padding: 8px 15px 5px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    background-color: rgba(211, 211, 211, 0.50);
+    border-radius: 30px;
+    color: #000;
+    text-align: center;
+    width: 404px;
+    height: 70px;
+
+    opacity: 0.8;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
 
 
 

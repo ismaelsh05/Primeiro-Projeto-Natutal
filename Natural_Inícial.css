@@ -59,8 +59,12 @@ button:hover {
 
 .container {
     width: 90%;
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1440px;
+}
+
+header nav.container {
+    max-width: 1440px;
 }
 
 h1 {
@@ -71,6 +75,7 @@ h1 {
     letter-spacing: -0.01px;
     color: #000000;
     margin: 30px 0 24px 0;
+    width: 1100px;
 }
 
 .paragraph-top {
@@ -180,8 +185,9 @@ h1 {
     height: 76px;
     cursor: pointer;
     border: none;
-    margin-bottom: 3px;
-    
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
 }
 .second-button-see-other-tips {
     font-size: 24px;

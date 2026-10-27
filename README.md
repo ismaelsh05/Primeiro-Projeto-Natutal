@@ -10,7 +10,7 @@
 
 <p> - Com foco em layout, responsividade e experiência do usuário.</p>
 
-<img src="https://raw.githubusercontent.com/ismaelsh05/Primeiro-Projeto-Natutal/refs/heads/main/img/Captura%20de%20tela%202026-10-27%20184356.png?token=GHSAT0AAAAAAEK4TWUVH334I3U2MLALNZUU2XBD3UQ">
+<img src="https://github.com/ismaelsh05/Primeiro-Projeto-Natutal/blob/main/img/Captura%20de%20tela%202026-10-27%20184356.png?raw=true">
 
 <h2>Tecnologia usada</h2>
 <p>- HTML5</p>

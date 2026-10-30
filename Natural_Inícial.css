@@ -114,11 +114,21 @@ h1 {
     display: inline-block;
     
 }
-
-.box-img3 {
-    display: inline-block;
+article {
     width: 1200px;
     height: 950px;
+}
+
+.box-img3 {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    width: 1200px;
+    height: 950px;
+}
+.box-1:hover {
+    transition: 0.3s ease;
+    transform: scale(1.05);
 }
 
 .title-1 {
@@ -166,6 +176,7 @@ h1 {
     vertical-align: top;
     width: 32%;
     margin: 82px 10px 144px 0;
+    cursor: pointer;
 }
 
 .box-1 img {
@@ -282,16 +293,25 @@ h1 {
     display: flex;
     align-items: flex-start;
     gap: 31px;
+    height: 530px;
 }
+
+
+
 
 .final-card {
     display: flex;
     flex-direction: column;
     width: 630px;
+    cursor: pointer;
 }
-
+.final-card:hover {
+    display: inline-block;
+    transition: 0.3s ease;
+    transform: scale(1.05);
+}
 .final-card img {
-    display: block;
+    margin-right: 30px;
     width: 100%;
     margin-bottom: 16px;
     width: 624.5px;
@@ -324,7 +344,7 @@ h1 {
 
 .final-section {
     width: 1514px;
-    margin-left: calc(58% - 850px);
+    margin-left: calc(59% - 860px);
     display: flex;
     align-items: center;
     gap: 24px;
@@ -465,4 +485,99 @@ b {
 }
 .copy {
     margin-bottom: 5px;
+}
+@media screen and (max-width: 1320px) {
+    .container {
+        margin: auto;
+    }
+    .link-natural {
+        margin-right: auto;
+
+    }
+    nav {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 55px;
+        width: auto; 
+    }
+
+    .img-1 {
+        display: inline-block;
+        width: stretch;
+    }
+
+    .box-img3 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 20px;
+        width: stretch;
+        height: 495px;
+    }
+    .paragraph-T1 {
+        margin: revert-layer;
+    }
+    .box-1 {
+        width: 32%;
+        margin: 0;
+    }
+    .box-2 {
+        column-gap: 10px;
+    }
+    .img-2 {
+        width: stretch;
+        height: auto;
+    }
+    .box-3{
+        width: stretch;
+        height: 490px;
+    }
+    .final-card img {
+        width: 101%;
+        height: auto;
+    }
+    .final-section h2 {
+        font-size: 40px;
+        width: 700px;
+
+}
+.final-section {
+        margin-left: calc(59% - 803px);
+        width: 1330px;
+    }
+    .footer-links2 {
+        margin: 47px 10px 0px 45px;
+    }
+    .footer-nav {
+    width: 1200px;
+    }
+}
+@media screen and (max-width: 1200px) {
+
+    .footer-links2 {
+        font-size: 16px;
+        width: 484px;
+        margin: 50px -10px 0px 0px
+
+    }
+    .final-card {
+        width: 1430px;
+    }
+    
+}
+@media screen and (max-width: 780px) {
+  .container {
+    width: 90vw;       /* 90% da largura da tela */
+    min-height: 50vh;  /* pelo menos 50% da altura da tela */
+  }
+
+  input {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 8vw;    /* tamanho relativo à largura da tela */
+  }
 }

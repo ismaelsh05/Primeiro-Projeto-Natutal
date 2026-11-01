@@ -344,7 +344,7 @@ article {
 
 .final-section {
     width: 1514px;
-    margin-left: calc(59% - 860px);
+    margin-left: calc(59% - 885px);
     display: flex;
     align-items: center;
     gap: 24px;
@@ -486,6 +486,7 @@ b {
 .copy {
     margin-bottom: 5px;
 }
+
 @media screen and (max-width: 1320px) {
     .container {
         margin: auto;
@@ -539,18 +540,18 @@ b {
     }
     .final-section h2 {
         font-size: 40px;
-        width: 700px;
+        width: 650px;
 
-}
-.final-section {
-        margin-left: calc(59% - 803px);
+    }
+    .final-section {
+        margin-left: calc(59% - 760px);
         width: 1330px;
     }
-    .footer-links2 {
-        margin: 47px 10px 0px 45px;
+        .footer-links2 {
+            margin: 47px 10px 0px 45px;
     }
-    .footer-nav {
-    width: 1200px;
+        .footer-nav {
+        width: 1200px;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -564,20 +565,54 @@ b {
     .final-card {
         width: 1430px;
     }
-    
+   
 }
 @media screen and (max-width: 780px) {
-  .container {
-    width: 90vw;       /* 90% da largura da tela */
-    min-height: 50vh;  /* pelo menos 50% da altura da tela */
-  }
+    .container {
+        width: 90vw;       /* 90% da largura da tela */
+        min-height: 50vh;  /* pelo menos 50% da altura da tela */
+    }
+    .link-natural { 
+        font-size: 40px;
+    
+    }
 
-  input {
-    width: 100%;
-    font-size: 1rem;
-  }
+    input {
+        width: 100%;
+        font-size: 1rem;
+    }
 
-  h1 {
-    font-size: 8vw;    /* tamanho relativo à largura da tela */
-  }
+    h1 {
+        font-size: 15vw;    /* tamanho relativo à largura da tela */
+    }
+}
+@media screen and (max-width: 400px) {
+        .container {
+        width: 280vw;
+        min-height: 20vh;
+    }
+    .paragraph-top {
+        font-size: 30px;
+    }
+    .img-1 {
+        width: 70%;
+    }
+    body {
+        padding: 20px 20px 20px 20px;
+        display: block;
+        width: 310vw;
+    }
+        h1 {
+        font-size: 18vw;
+    }
+
+
+    .final-section {
+        margin-left: calc(65% - 803px);
+        width: 1310px;
+    }
+    .final-section {
+        margin-left: calc(65% - 803px);
+        width: 1310px;
+    }
 }

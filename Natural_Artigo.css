@@ -362,7 +362,7 @@ b {
     }
     .box-img3 {
         margin: auto;
-        width: 90%;
+        width: 100%;
         height: auto;
     }
     h1 {
@@ -386,22 +386,256 @@ b {
         margin: 0 auto;
         margin-top: 52px;
         margin-bottom: 82px;
+        width: fit-content;
     }
     .paragraph-T1 {
         display: block;
         margin: 0 auto;
-        width: 80%;
+        width: 85%;
     }
     
     .img-conteiner {
         margin: 0 auto;
         width: 100%;
         gap: 20px;
+        flex-direction: column;
     }
     .img-conteiner img {
         margin: auto;
+        width: 70%;
+        height: auto;
+    }
+    .box-1 {
+        margin: auto;
         width: 100%;
         height: auto;
+    }
+    .sub-1 {
+        display: block;
+        margin: 0 auto;
+        width: fit-content;
+        height: auto;
+        margin-top: 59px;
+        margin-bottom: 82px;
+        text-align: center;
+    }
+    .pa-1 {
+        margin: 0 auto;
+        width: 85%;
+        height: auto;
+    }
+    .title-2 {
+        width: auto;
+    }
+    .s-1 {
+        flex-direction: column;
+        align-items: center;
+        height: 1280px;
+        gap: 30px;
+        width: auto;
+        margin: auto;
+        margin-bottom: 146px;
+    }
+    .img-box {
+        height: auto;
+        width: auto;
+    }
+    .footer-links2 {
+        width: 120px;
+    }
+    .footer-brand a,
+    .footer-brand p,
+    cite {
+        width: auto;
+        height: auto;
+        margin: 35px auto;
+    }
+        .footer-nav {
+        width: auto;
+    }
+    .footer-nav img {
+    margin: 0px 20px -30px -65px;
+}
+
+
+    
+}
+
+@media screen and (max-width: 960px) {
+    .link-header {
+        display: none;
+    }
+    .link-natural {
+        margin-right: auto;
+    }
+    header {
+        margin: 25px 0px 25px;
+    }
+     footer {
+        width: 90%;
+    }
+
+    .footer-nav {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .footer-brand {
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 16px;
+        column-gap: initial;
+        flex-flow: column;
+        text-align: center;
+    }
+    .footer-brand a
+    .footer-brand p,
+    cite {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .footer-nav img {
+        width: 120px;
+        margin: 0 40px;
+    }
+
+    .footer-links,
+    .footer-links2 {
+        width: auto;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+
+
+  .link-natural {
+        margin-right: auto;
+    }
+    .shop-button {
+        width: 110px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .link-natural {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: clamp(32px, 9vw, 40px);
+    }
+
+    .paragraph-top,
+    .paragraph-T1 {
+        font-size: 18px;
+        line-height: 1.5;
+        height: auto;
+        margin-bottom: 55px;
+    }
+    .article-box:hover {
+            transform: scale(1.06);
+    }
+    .title-1,
+    .sub-1 {
+        font-size: 32px;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+    .img-conteiner img {
+        display: block;
+        width: 80%;
+        margin-top: 15px;
+    }
+    .title-2 {
+                width: auto;
+        margin: auto;
+        margin-top: 45px;
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+    .title-box,
+    .sub-box,
+    .paragraph-box {
+        margin: auto;
+        width: auto;
+    }
+    .article-box ul {
+        width: 100%; /* A lista ocupa toda a largura do card. */
+    }
+     .img-box {
+        width: 100%; /* A caixa da imagem acompanha a largura do card. */
+        height: auto;
+     }
+       .img-box img {
+        display: block;
+        width: 100%; /* A imagem preenche a caixa sem ultrapassar o card. */
+        height: auto;
+    }
+     .article-box {
+        width: min(100%, 355px); /* Usa o espaço disponível, limitado a 355px. */
+    }
+     .s-1 {
+        width: 100%;
+        gap: 24px;
+        padding: 0 16px;
+        height: 1180px;
+        margin-bottom: 45px;
+     }
+}
+@media screen and (max-width: 398px) {
+
+    .title-box,
+    .sub-box,
+    .paragraph-box {
+        width: 100%;
+        }
+    .s-1 {
+        width: 100%;
+        gap: 24px;
+        padding: 0 16px;
+        margin-bottom: 64px;
+        height: 1110px;
+    }
+    .article-box {
+        width: min(100%, 320px);
+    }
+    .article-box ul {
+        width: 100%;
+    }
+    .img-box {
+        width: 100%;
+        height: auto;
+    }
+    .img-box img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .title-1,
+    .sub-1, 
+    .title-2 {
+        font-size: 25px;
+    }
+    .paragraph-T1,
+    .pa-1 {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 385px) {
+    .paragraph-top {
+        font-size: 16px;
+    }
+    .title-box,
+    .sub-box {
+        font-size: 18px;
+    }
+    .paragraph-box {
+        font-size: 16px;
     }
 
 }

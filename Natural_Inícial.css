@@ -918,3 +918,35 @@ b {
         gap: 20px;
     }
 }
+@media screen and (max-width: 420px) {
+    .paragraph-top {
+        font-size: 16px;
+    }
+    .title-box,
+    .sub-box {
+        font-size: 18px;
+    }
+    .paragraph-box {
+        font-size: 16px;
+    }
+        .title-1, .title-2, .title-3 {
+        font-size: 27px;
+    }
+    .paragraph-T1, .pa-2, .pa-3 {
+        font-size: 17px;
+    }
+    .sub-1{
+        font-size: 20px;
+    }
+    .pa-1 {
+        font-size: 17px;
+    }
+    .sub-2,
+    .sub-3 {
+        font-size: 20px;
+    }
+    .pa-2, 
+    .pa-3 {
+        font-size: 16px;
+    }
+}
